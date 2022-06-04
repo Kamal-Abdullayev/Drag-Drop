@@ -1,0 +1,66 @@
+body {
+  background-color: #0140c8;
+}
+
+.container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .row .col-4 {
+  margin: 10% 5%;
+  background-color: white;
+  padding: 36px;
+}
+
+.container .row .col-4 .list-input form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15%;
+}
+
+.container .row .col-4 .list-input form button {
+  margin-left: 20px;
+}
+
+.container .row .col-4 .todo-list-item {
+  background-color: #c1e4e3;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .row .col-4 .todo-list-item .remove-btn {
+  background-color: blue;
+  color: #fff;
+}
+
+.container .row .col-4 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #00ff77;
+}
